@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #alfred{
+        width: 1040px;
+        height: 960px;
+        display:flex;
+    }
+    #juma{
+        width: 35%;
+        height: 100%;
+        background-color:green;
+        float: left;
+    }
+    #oginga{
+        width: 65%;
+        height: 100%;
+        background-color: bisque;
+        float: right;
+        top: 0px;
+    }
+    #freddy{
+        width: 1040px;
+        height: fit-content;
+        overflow: hidden;
+        position: relative;
+    }
+    span{
+        font-weight: bolder;
+        font-size: larger;
+    }
+    a{
+        text-decoration: none;
+        border-radius: 10px;
+        width: fit-content;
+        padding: 4px;
+    }
+    a:hover{
+        background-color:cyan;
+        box-shadow: 1px 1px 4px 7px rgb(120, 199, 230);
+        color: black;
+    }
+    section{
+     padding-left: 103px;
+    }
+    #contact{
+        text-align: center;
+        font-weight: bolder;
+        font-size: larger;
+        background-color: rgb(7, 233, 7);
+    }
+    #inform{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    #box{
+        width: auto;
+        height:fit-content;
+        background-color: antiquewhite;
+        padding: 20px;
+    }
+    #box1{
+     columns: 2;
+     width: 100%;
+     height: 350px;
+     padding: 15px;
+    }
+    #box2{
+        columns: 1;
+        width: 100%;
+        height: min-content;
+        padding: 20px;
+    }
+    #cv{
+        font-weight: bolder;
+        color:rgb(56, 8, 8);
+        text-align: center;
+        font-size: 40px;
+        font-family: Verdana,Tahoma;
+    }
+    ul{
+        columns: 2;
+        column-rule-color: whitesmoke;
+        column-rule-style: outset;
+    }
+    @media only screen and(max-width:700px) {
+     body {
+        width : 100%;
+        height: fit-content;
+    }
+}
+</style>
+<body>
+    <div id="freddy">
+    <h1 id="cv">CURRICULUM VITAE</h1>
+        <div id="alfred">
+        <div id="juma">
+            <div style="padding: 20px;">
+                <h1>ALFRED JUMA</h1>
+                 <span>Software Developer</span>
+            </div>
+               <div id="contact">CONTACT</div>
+               <div style="padding: 15px;">
+                 <span>Address</span><br>
+                 <label>00100 Nairobi,Kenya</label><br><br>
+                 <span>Phone :</span><br><br>
+                 <a href="tel:+254705788336">0705788336</a><br><br>
+                 <a href="tel:+254789355709">0789355709</a><br><br>
+                 <span>Email</span><br><br>
+                 <a href="mailto:jumextoginga@gmail.com">jumextoginga@gmail.com</a><br><br>
+                 <span>Social Media Accounts</span><br><br>
+                 <a href="http://www.facebook.com/alfred.juma.9022" style="background-color:wheat;">FB</a>
+                 <a href="http://www.twitter.com/JumaAlfred11" style="background-color:wheat;">Twitter</a>
+                 <a href="http://www.linkedin.com/in/oginga-alfred-juma/" style="background-color:wheat;">Linkedin</a>
+                 <a href="http://github.com/Jumalfred/" style="background-color:wheat;">Github</a>
+                 <a href="http://wa.me/+254705788336" style="background-color:wheat;">WhatsApp</a>
+               </div>
+             <div id="contact">SKILLS</div>
+             <div>
+                 <ul>
+                     <label style="text-align: center;  color: crimson;"><b>EDUCATIONAL</b></label><hr>
+                     <li>HTML language and Github skills</li>
+                     <li>CSS language skills</li>
+                     <li>Javascript language skiils</li>
+                     <li>Data Entry Skills</li>
+                     <li>Good Telephone Etiquette</li>
+                     <label style="text-align: center; color: crimson;"><b>PERSONAL</b></label><hr>
+                     <li>Excellent Communication</li>
+                     <li>Decision Making</li>
+                     <li>Teamwork and Collaboration</li>
+                     <li>Organisation and Time Management</li>
+                     <li>Problem Solving</li>
+             </div>
+             <div id="contact">SOFTWARE</div>
+             <div style="padding: 20px;">
+                <label>Data Entry</label><br><br>
+                <label>Front-End Web Development</label>
+             </div>
+             <div id="contact">LANGUAGES</div>
+             <div style="padding: 5px;">
+                <ul>
+                    <li>English</li>
+                    <li>Kiswahili</li>
+                </ul>
+             </div>
+        </div>
+            <div id="oginga">
+                <div id="box">
+                    <span>I am an expert at applying my programming skills to solve complex challenges since
+                         I am pro-efficient with object oriented programming languages,as well as algorithms and
+                          data structures.I come with a track record of continually improving the way software works,its 
+                          applications solution,manage and operate IT hardware.<br>
+                          I normally enjoys collaborating with colleagues 
+                          and building cultures of cross-functional working to provide a greater platform for the success of projects.</span>
+                </div>
+            <div id="contact">EXPERIENCE</div>
+            <div id="box1">
+             </div>
+            <div id="contact">EDUCATION</div>
+            <div id="box2">
+                <label>2021 - DATE <b>:</b> THE EAST AFRICAN UNIVERSITY</label><br>
+                <section>Pursuing <span>Bachelor of Sciences in Computer Science and IT</span></section><br>
+                <label>2017 - 2021 <b>:</b> ST. ALLOYS GEM SECONDARY SCHOOL</label><br>
+                <section>Graduated in April 2021 with <span>C+ in Kenya National of Secondary Education(KCSE)</span></section><br>
+                <label>2008 - 2016 <b>:</b> KANYALWAL PRIMARY SCHOOL</label><br>
+                <section>Graduated in December 2016 with <span>332 marks in Kenya National of Primary Education(KCPE)</span></section>
+                <label></label>
+            </div>
+            </div>
+            </div>
+            </div>
+    </div>
+</body>
+</html>
